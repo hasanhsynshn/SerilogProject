@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "f2K6vnmHdfM8JPkw2ozKJCwRJaAgR/g1GwqLfkbcUjoNYdh/K2qwrwXreZgupkEbKgFqaxzZdtr17YLnmV3F/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hasan H\\source\\repos\\SerilogProject\\SerilogProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hasan H\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\serilog.exceptions\\8.4.0\\serilog.exceptions.8.4.0.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\serilog.sinks.graylog\\3.1.1\\serilog.sinks.graylog.3.1.1.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\serilog.sinks.grayloggelf\\1.0.6\\serilog.sinks.grayloggelf.1.0.6.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\sharpcompress\\0.33.0\\sharpcompress.0.33.0.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Hasan H\\.nuget\\packages\\system.reflection.typeextensions\\4.7.0\\system.reflection.typeextensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

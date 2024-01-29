@@ -1,0 +1,59 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.Graylog" ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Error",
+        "Microsoft.AspNetCore": "Error",
+        "System": "Error",
+        "Microsoft.Hosting.Lifetime": "Error",
+        "Microsoft.Extensions.Hosting": "Error",
+        "MyApplication": "Warning"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Graylog",
+        "Args": {
+          "hostnameOrAddress": "127.0.0.1",
+          "port": "12201",
+          "transportType": "Udp",
+          "restrictedToMinimumLevel": "Information"
+        }
+      }
+    ],
+    "Enrich": [
+      "FromLogContext",
+
+      //Environment
+      "WithMachineName",
+      "WithEnvironmentUserName",
+      "WithEnvironmentName",
+
+      //ClientInfo
+      "WithClientIp",
+      "WithClientAgent",
+
+      //Process
+      "WithProcessId",
+      "WithProcessName",
+
+      //Thread
+      "WithThreadId",
+      "WithThreadName",
+
+      //CorrelationId
+      "WithCorrelationId",
+
+      //Memory
+      "WithMemoryUsage",
+
+      //ExceptionalLogContext
+      "WithExceptionalLogContext"
+    ],
+    "Properties": {
+      "Application": "My Application"
+    }
+  }
+}
